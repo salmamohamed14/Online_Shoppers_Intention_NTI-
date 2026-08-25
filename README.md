@@ -1,3 +1,9 @@
+
+## 👥 Team Members
+* Salma Mohamed
+* Joussyana Sabry
+* Jessika Sabry
+
 # Online Shoppers Purchasing Intention Prediction 🛒
 
 ## 📌 Project Overview
@@ -28,8 +34,3 @@ A user-friendly web application was built using **Streamlit**. It features inter
 
 2. Run the Streamlit app:
 `streamlit run app.py`
-
-## 👥 Team Members
-* Salma Mohamed
-* joussyana 
-* jesseka
