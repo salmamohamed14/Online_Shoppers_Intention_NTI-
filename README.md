@@ -8,11 +8,11 @@ We utilized the **Online Shoppers Intention** dataset. It contains both numerica
 *Note:* The dataset is highly imbalanced, with approximately 84% of sessions resulting in no purchase and only 16% resulting in a purchase.
 
 ## ⚙️ Workflow & Methodology
-1. **Exploratory Data Analysis (EDA):** Visualized feature distributions and extracted key business insights (e.g., the strong correlation between `PageValues` and purchasing intent).
-2. **Data Preprocessing:** Handled duplicate records, encoded categorical features, and applied selective scaling.
-3. **Model Training:** Trained and evaluated multiple models including Logistic Regression, LightGBM, XGBoost, Decision Tree, and CatBoost.
-4. **Hyperparameter Tuning:** Applied `GridSearchCV` to optimize model parameters (like `max_depth`, `learning_rate`, and `n_estimators`) to prevent overfitting.
-5. **Evaluation Metric Focus:** Prioritized **Recall** and **F1-Score** to minimize false negatives and ensure we capture as many potential buyers as possible.
+* **Exploratory Data Analysis (EDA):** Visualized feature distributions and extracted key business insights (e.g., the strong correlation between `PageValues` and purchasing intent).
+* **Data Preprocessing:** Handled duplicate records, encoded categorical features, and applied selective scaling for specific models.
+* **Model Training:** Trained and evaluated multiple models including Logistic Regression, LightGBM, XGBoost, Decision Tree, and CatBoost.
+* **Hyperparameter Tuning:** Applied `GridSearchCV` to optimize model parameters (like `max_depth`, `learning_rate`, and `n_estimators`) to prevent overfitting.
+* **Evaluation Metric Focus:** Prioritized **Recall** and **F1-Score** to minimize false negatives and ensure we capture as many potential buyers as possible.
 
 ## 🏆 Top Performing Models
 After evaluation, the two best models selected for deployment are:
@@ -24,5 +24,13 @@ A user-friendly web application was built using **Streamlit**. It features inter
 
 ### How to Run Locally
 1. Install the required Python libraries:
-   ```bash
-   pip install streamlit pandas scikit-learn catboost
+`pip install streamlit pandas scikit-learn catboost`
+
+2. Run the Streamlit app:
+`streamlit run app.py`
+
+## 👥 Team Members
+**Tanta University - Faculty of Engineering**
+* Salma Mohamed
+* [Team Member 2]
+* [Team Member 3]
