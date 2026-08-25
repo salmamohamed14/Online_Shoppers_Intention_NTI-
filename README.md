@@ -10,7 +10,7 @@ We utilized the **Online Shoppers Intention** dataset. It contains both numerica
 ## ⚙️ Workflow & Methodology
 * **Exploratory Data Analysis (EDA):** Visualized feature distributions and extracted key business insights (e.g., the strong correlation between `PageValues` and purchasing intent).
 * **Data Preprocessing:** Handled duplicate records, encoded categorical features, and applied selective scaling for specific models.
-* **Model Training:** Trained and evaluated multiple models including Logistic Regression, LightGBM, XGBoost, Decision Tree, and CatBoost.
+* **Model Training:** Trained and evaluated multiple models including Logistic Regression, LightGBM, XGBoost, Decision Tree, SVM, Random Forest and CatBoost.
 * **Hyperparameter Tuning:** Applied `GridSearchCV` to optimize model parameters (like `max_depth`, `learning_rate`, and `n_estimators`) to prevent overfitting.
 * **Evaluation Metric Focus:** Prioritized **Recall** and **F1-Score** to minimize false negatives and ensure we capture as many potential buyers as possible.
 
@@ -30,7 +30,6 @@ A user-friendly web application was built using **Streamlit**. It features inter
 `streamlit run app.py`
 
 ## 👥 Team Members
-**Tanta University - Faculty of Engineering**
 * Salma Mohamed
-* [Team Member 2]
-* [Team Member 3]
+* joussyana 
+* jesseka
