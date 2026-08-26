@@ -1,11 +1,10 @@
+# Online Shoppers Purchasing Intention Prediction 🛒
 
 ## 👥 Team Members
 * Salma Mohamed
 * Joussyana Sabry
 * Jessika Sabry
-
-# Online Shoppers Purchasing Intention Prediction 🛒
-
+  
 ## 📌 Project Overview
 This machine learning project aims to predict whether an online website visitor will complete a transaction and make a purchase (`Revenue = True` or `False`) based on their browsing behavior, session duration, and other Google Analytics metrics.
 
